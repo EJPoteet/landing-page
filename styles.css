@@ -17,6 +17,7 @@ header {
 .headerNavBar {
     display: flex;
     justify-content: space-between;
+    padding-top: 16px;
 }
 
 h1 {
@@ -45,6 +46,7 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    flex: 1 1 auto;
 }
 
 #heroText {
@@ -74,4 +76,19 @@ h1 {
 #flowersJPG {
     max-width: 100%;
     height: auto;
+}
+
+#informationSectionHeader {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+}
+
+#infoBoxContainer {
+    display: flex;
+}
+
+.infoIllustration {
+    width: 150px;
 }
