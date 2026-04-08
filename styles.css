@@ -116,3 +116,11 @@ h1 {
     border: #3882F6 solid 3px;
     border-radius: 8px;
 }
+
+#quoteSection {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+    padding: 40px 15%;
+}
