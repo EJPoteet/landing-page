@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+    color: #E5E7EB;
+    font-size: 18px;
+    margin: 0;
+}
+
+header {
+    background-color: #1F2937;
+    padding: 0 15%;
+}
+
+.headerNavBar {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.navLinks {
+    display: flex;
+    gap: 16px;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.headerContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.leftHeaderContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#heroText {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+#secondaryText {
+    margin: 0;
+}
+
+#signUpButton {
+    margin-top: 8px;
+    padding: 8px 24px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border: none;
+    border-radius: 8px;
+}
+
+.rightHeaderContent {
+    flex-basis: 90%;
+}
+
+#flowersJPG {
+    max-width: 100%;
+    height: auto;
+}
