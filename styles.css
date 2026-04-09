@@ -9,8 +9,12 @@ body {
     margin: 0;
 }
 
-header {
+header,
+footer {
     background-color: #1F2937;
+}
+
+header {
     padding: 0 15%;
 }
 
@@ -159,4 +163,9 @@ h1 {
     color: #E5E7EB;
     border: #E5E7EB solid 2px;
     border-radius: 8px;
+}
+
+#footerSection {
+    padding: 16px 15%;
+    text-align: center;
 }
