@@ -58,7 +58,9 @@ h1 {
 
 #secondaryText,
 #informationSectionHeader,
-.infoSubtext {
+.infoSubtext,
+#quote,
+#quoteAttribution {
     margin: 0;
 }
 
@@ -81,7 +83,7 @@ h1 {
 }
 
 #infoSection {
-    padding: 40px 15%;
+    padding: 40px 20%;
 }
 
 #informationSectionHeader {
@@ -93,10 +95,10 @@ h1 {
 
 #infoBoxContainer {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     gap: 64px;
     color: #909090;
-    margin-top: 24px;
+    margin-top: 32px;
 }
 
 .infoBox {
@@ -122,5 +124,11 @@ h1 {
     color: #1F2937;
     font-size: 36px;
     font-weight: 300;
-    padding: 40px 15%;
+    padding: 56px 20%;
+}
+
+#quoteAttribution {
+    font-weight: 800;
+    font-size: 24px;
+    text-align: end;
 }
